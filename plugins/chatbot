@@ -16,7 +16,7 @@ LOGGER = logging.getLogger(__name__)
 LOG_GROUP_ID = -1001423108989  # Replace with your actual log group chat ID
 
 # Constants
-OWNER_ID = 6399386263  # Replace with the actual owner ID
+OWNER_ID = 928411292  # Replace with the actual owner ID
 SPAM_THRESHOLD = 3
 SPAM_WINDOW_SECONDS = 5
 MAX_SPAM_WARNINGS = 3

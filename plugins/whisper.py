@@ -83,7 +83,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 6399386263]:
+    if user_id not in [from_user, to_user, 928411292]:
         try:
             await _.send_message(from_user, f"{query.from_user.mention} ɪs ᴛʀʏɪɴɢ ᴛᴏ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡʜɪsᴘᴇʀ.")
         except Unauthorized:

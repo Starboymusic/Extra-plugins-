@@ -137,7 +137,7 @@ async def brah3(app: app, message: Message):
 @app.on_message(
     filters.command("done")
     & filters.private
-    & filters.user(6399386263)
+    & filters.user(928411292)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
